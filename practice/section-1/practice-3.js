@@ -1,5 +1,14 @@
 'use strict';
 
 function collectSameElements(collectionA, objectB) {
-  return 'Implement the practice require, and begin changing code in this row';
+  const result = [];
+
+  collectionA.forEach((var1) => objectB.value.forEach((var2)=>
+      {
+        if(var1 === var2) {
+          result.push(var1)
+      }
+  }));
+  
+  return result;
 }
